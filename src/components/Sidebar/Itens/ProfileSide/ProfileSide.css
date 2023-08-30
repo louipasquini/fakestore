@@ -1,0 +1,20 @@
+.profile-side {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    transition: all 0.2s ease-in-out;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.profile-side:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.profile-side > h3 {
+    font-weight: 400;
+}
+
+.profile-side > svg {
+    margin-right: 10px;
+}

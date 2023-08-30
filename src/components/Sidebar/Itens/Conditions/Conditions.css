@@ -1,0 +1,20 @@
+.conditions {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    transition: all 0.2s ease-in-out;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.conditions:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.conditions > h3 {
+    font-weight: 400;
+}
+
+.conditions > svg {
+    margin-right: 10px;
+}
